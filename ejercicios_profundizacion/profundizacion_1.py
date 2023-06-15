@@ -12,6 +12,20 @@
 
 # IMPORTANTE: NO borrar los comentarios en VERDE o NARANJA
 
+# Numpy [Python]
+# Ejercicios de profundización
+
+# Autor: Inove Coding School
+# Version: 2.0
+
+# NOTA: 
+# Estos ejercicios son de mayor dificultad que los de clase y práctica.
+# Están pensados para aquellos con conocimientos previo o que dispongan
+# de mucho más tiempo para abordar estos temas por su cuenta.
+# Requiere mayor tiempo de dedicación e investigación autodidacta.
+
+# IMPORTANTE: NO borrar los comentarios en VERDE o NARANJA
+
 '''
 Enunciado:
 Empecemos a jugar con las listas y su métodos, el objetivo
