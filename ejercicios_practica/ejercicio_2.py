@@ -10,6 +10,9 @@
 # Ejercicios con lambda
 
 
+from re import X
+
+
 if __name__ == '__main__':
     print("Bienvenidos a otra clase de Inove con Python")
     
@@ -19,6 +22,8 @@ if __name__ == '__main__':
     # (len) de un string pasado como parámetro
 
     # len_string = lambda......
+    len_string = lambda x : len(x)
+    print (len_string("Carlos"))
 
     # 2)
     # Lista de string
@@ -35,5 +40,6 @@ if __name__ == '__main__':
     # directamente la lambda.
 
     # palabras_len = list(map....)
-
+    palabras_len = list(map(lambda x : len(x), palabras))
+    print(palabras_len)
     print("terminamos")
