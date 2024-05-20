@@ -33,7 +33,8 @@ if __name__ == '__main__':
     # personal_1_10 = [.....] 
     personal_1_10 = [n for n in accesos if n <= 10] 
     resultado = len(personal_1_10) 
-    print("la/las persona/s de rango entre 1 y 10 que pasaron por el molinete es/son" ,resultado) 
+    print(f"""la/las persona/s de rango entre 1 y 10 que pasaron 
+          por el molinete es/son {resultado}""") 
 
 
 
@@ -50,6 +51,7 @@ if __name__ == '__main__':
     # personal_valido = [.....] 
 
     personal_valido = [x for x in accesos if x in id_validos]
-    print("Id validos para ingreso por molinete especifico: " , personal_valido)
+    print(f"""Id validos para ingreso por molinete especifico: 
+           {personal_valido}""")
 
     print("terminamos")
