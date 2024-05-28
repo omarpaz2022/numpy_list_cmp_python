@@ -42,8 +42,9 @@ que sucede sino encuentra la "key" en el diccionario.
 
 NOTA: Esta información bien podría ser una tabla SQL: id | producto
 de una base de datos como veran más adelante.
-Tambien se lo conoce como el proceso de transformar variable numéricas en categóricas
-en análisis de datos.
+Tambien se lo conoce como el proceso de transformar variable numéricas 
+en categóricas en análisis de datos.
+
 '''
 
 if __name__ == '__main__':
